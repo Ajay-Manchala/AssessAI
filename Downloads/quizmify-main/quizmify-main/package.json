@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "npx prisma generate && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "next build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -56,6 +57,6 @@
     "prisma": "^5.0.0"
   },
   "engines": {
-    "node": "22.x"
+    "node": "18.x"
   }
 }
